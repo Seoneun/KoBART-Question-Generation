@@ -28,11 +28,14 @@ tokenizer.decode(summary_ids.squeeze().tolist(), skip_special_tokens=True)
 ```
 ## Requirements
 ```
-pytorch>=1.10.0
-transformers==4.16.2
-pytorch-lightning==1.5.10
-streamlit==1.2.0
+torch==1.8.0
+transformers==4.18.0
 ```
+
+## Training Environment
+ - Ubuntu
+ - RTX 3090
+
 ## Data
 - KorQuAD1.0 의 학습 데이터를 활용함
 - 데이터 탐색에 용이하게 tsv 형태로 데이터를 변환함
