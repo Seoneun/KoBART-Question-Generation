@@ -83,11 +83,8 @@ python train.py
 | F1| 0.505| 0.340|0.415|
 
 ## Demo
-- 학습한 model binary 추출 작업이 필요함
-   - pytorch-lightning binary --> huggingface binary로 추출 작업 필요
-   - hparams의 경우에는 <b>./logs/tb_logs/default/version_0/hparams.yaml</b> 파일을 활용
-   - model_binary 의 경우에는 <b>./logs/kobart_summary-model_chp</b> 안에 있는 .ckpt 파일을 활용
-   - 변환 코드를 실행하면 <b>./kobart_summary</b> 에 model binary 가 추출 됨
+  
+https://huggingface.co/Sehong/kobart-QuestionGeneration
   
 ```
  python get_model_binary.py --hparams hparam_path --model_binary model_binary_path
