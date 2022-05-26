@@ -46,13 +46,11 @@ transformers==4.18.0
   
 | content  | question |
 |-------|--------:|
-| 본문 + <unused0> + 정답| 질문 |  
+| 본문 + '<unused0>' + 정답| 질문 |  
 
 ## How to Train
 - KoBART summarization fine-tuning
 ```bash
-pip install -r requirements.txt
-
 [use gpu]
 python train.py 
 
@@ -79,10 +77,9 @@ python train.py
 
 
 ## Model Performance
-- Test Data 기준으로 rouge score를 산출함
-- Score 산출 방법은 Dacon 한국어 문서 생성요약 AI 경진대회 metric을 활용함
+- Test Data 기준으로 BLEU score를 산출함
  
-
+  
 | |BLEU-1|BLEU-2|BLEU-3|BLEU-4|
 |-------|--------:|--------:|--------:|--------:|
 |Score|42.98 |31.90 |24.15 |18.62 |
