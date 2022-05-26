@@ -81,9 +81,9 @@ python train.py
 ## Model Performance
 - Test Data 기준으로 rouge score를 산출함
 - Score 산출 방법은 Dacon 한국어 문서 생성요약 AI 경진대회 metric을 활용함
-  
-| | BLEU-1 |BLEU-2|BLEU-3||BLEU-4|
+ 
 |-------|--------:|--------:|--------:|
+| | BLEU-1 |BLEU-2|BLEU-3||BLEU-4|
 | Precision| 0.515 | 0.351|0.415|
 | Recall| 0.538| 0.359|0.440|
 | F1| 0.505| 0.340|0.415|
@@ -92,21 +92,6 @@ python train.py
   
 https://huggingface.co/Sehong/kobart-QuestionGeneration
   
-```
- python get_model_binary.py --hparams hparam_path --model_binary model_binary_path
-```
-
-- streamlit을 활용하여 Demo 실행
-    - 실행 시 <b>http://localhost:8501/</b> 로 Demo page가 실행됨
-```
-streamlit run infer.py
-```
-
-- Demo Page 실행 결과
-  - [원문링크](https://www.mk.co.kr/news/society/view/2020/12/1289300/?utm_source=naver&utm_medium=newsstand)
-  
-<img src="imgs/demo.png" alt="drawing" style="width:600px;"/>
-
 ## Reference
 - [KoBART](https://github.com/SKT-AI/KoBART)
-- [KoBART-chatbot](https://github.com/haven-jeon/KoBART-chatbot)
+- [KoBART-summarization](https://github.com/haven-jeon/KoBART-chatbot](https://github.com/seujung/KoBART-summarization)
