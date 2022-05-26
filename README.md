@@ -40,8 +40,8 @@ transformers==4.18.0
 - KorQuAD1.0 의 학습 데이터를 활용함
 - 데이터 탐색에 용이하게 tsv 형태로 데이터를 변환함
 - Data 구조
-    - Train Data : 34,242
-    - Test Data : 8,501
+    - Train Data : 60,408
+    - Test Data : 5,775
 - default로 data/train.tsv, data/dev.tsv 형태로 저장함
   
 | content  | question |
@@ -69,6 +69,7 @@ python train.py
 |2|koBART|1989년 6월 30일 평양축전에 누구를 대표로 파견하여 국가보안법위반 혐의가 추가되었는가?|
 
 | ||Text|
+|-------|-------|-------|
 |-------|<unused0>|1989년|
 |3|Label|임종석이 여의도 농민 폭력 시위를 주도한 혐의로 지명수배된 연도는?|
 |3|koBART|임종석이 서울지방검찰청 공안부에서 사전구속영장을 발부받은 해는?|
