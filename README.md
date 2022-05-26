@@ -23,7 +23,7 @@ input_ids = [tokenizer.bos_token_id] + raw_input_ids + [tokenizer.eos_token_id]
 summary_ids = model.generate(torch.tensor([input_ids]),  num_beams=4,  max_length=512,  eos_token_id=1)
 tokenizer.decode(summary_ids.squeeze().tolist(), skip_special_tokens=True)
 
-'1일 0 9시까지 최소 20만3220명이 코로나19에 신규 확진되어 역대 최다 기록을 갈아치웠다.'
+'임종석이 지명수배된 날짜는?'
 
 ```
 ## Requirements
