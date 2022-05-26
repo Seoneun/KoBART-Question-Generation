@@ -46,7 +46,7 @@ transformers==4.18.0
   
 | content  | question |
 |-------|--------:|
-| 본문 + '<unused0>' + 정답| 질문 |  
+| 본문 + SEP_TOKEN + 정답| 질문 |  
 
 ## How to Train
 - KoBART summarization fine-tuning
@@ -90,4 +90,4 @@ https://huggingface.co/Sehong/kobart-QuestionGeneration
   
 ## Reference
 - [KoBART](https://github.com/SKT-AI/KoBART)
-- [KoBART-summarization](https://github.com/haven-jeon/KoBART-chatbot](https://github.com/seujung/KoBART-summarization)
+- [KoBART-summarization](https://github.com/seujung/KoBART-summarization)
