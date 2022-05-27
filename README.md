@@ -30,6 +30,9 @@ tokenizer.decode(summary_ids.squeeze().tolist(), skip_special_tokens=True)
 ```
 torch==1.8.0
 transformers==4.18.0
+
+# evaluate with Mecab
+python==3.8
 ```
 
 ## Training Environment
