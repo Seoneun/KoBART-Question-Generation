@@ -52,12 +52,20 @@ python==3.8
 | 본문 + SEP_TOKEN + 정답| 질문 |  
 
 ## How to Train
-- KoBART summarization fine-tuning
+- KoBART Question Generation fine-tuning
 ```bash
 [use gpu]
 python train.py 
 
 ```
+
+## How to Inference
+```bash
+[use gpu]
+python generate.py 
+
+```
+
 ## Generation Sample
 | ||Text|
 |-------|-------|-------|
