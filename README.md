@@ -43,8 +43,8 @@ python==3.8
 - KorQuAD1.0 의 학습 데이터를 활용함
 - 데이터 탐색에 용이하게 tsv 형태로 데이터를 변환함
 - Data 구조
-    - Train Data : 60,408
-    - Test Data : 5,775
+    - Train Data : 60,407
+    - Test Data : 5,774
 - default로 data/train.tsv, data/dev.tsv 형태로 저장함
   
 | content  | question |
