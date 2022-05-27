@@ -48,7 +48,7 @@ python==3.8
 - default로 data/train.tsv, data/dev.tsv 형태로 저장함
   
 | content  | question |
-|-------|--------:|
+|-------|:--------:|
 | 본문 + SEP_TOKEN + 정답| 질문 |  
 
 ## How to Train
