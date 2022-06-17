@@ -1,5 +1,9 @@
 # KoBART-Question Generation (+Post-training)
 
+## Post-training
+ - BART의 Text infilling loss와 QG loss를 합쳐 Post-training을 진행
+ - Post-training에서 QG는 AI-hub의 기계독해 데이터셋을 사용
+
 ## How to Train
 - KoBART Question Generation fine-tuning
 ```bash
