@@ -4,16 +4,10 @@
 - KoBART Question Generation fine-tuning
 ```bash
 [use gpu]
-python train.py 
+python post_train.py 
 
 ```
 
-## How to Inference
-```bash
-[use gpu]
-python generate.py 
-
-```
 
 ## Generation Sample
 | ||Text|
