@@ -15,7 +15,7 @@ python post_train.py
 
 
 ## Generation Sample
-# Text infilling + QG
+ - Text infilling + QG
 | ||Text|
 |-------|-------|-------|
 |1|Answer|1989년 2월 15일|
@@ -35,7 +35,7 @@ python post_train.py
 |3|koBART|임종석이 지명수배된 해는?|
 
 
-# Text infilling + Sentence permutation + QG
+ - Text infilling + Sentence permutation + QG
 | ||Text|
 |-------|-------|-------|
 |1|Answer|1989년 2월 15일|
@@ -59,12 +59,12 @@ python post_train.py
 ## Model Performance
 - Test Data 기준으로 BLEU score를 산출함
  
-# Text infilling + QG
+ - Text infilling + QG
 | |BLEU-1|BLEU-2|BLEU-3|BLEU-4|
 |------|:-------:|:-------:|:-------:|:-------:|
 |Score|43.59|32.54|24.84|19.20|
 
-# Text infilling + Sentence permutation + QG
+ - Text infilling + Sentence permutation + QG
 | |BLEU-1|BLEU-2|BLEU-3|BLEU-4|
 |------|:-------:|:-------:|:-------:|:-------:|
 |Score|43.84|32.73|25.08|19.34|
