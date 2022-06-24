@@ -2,6 +2,7 @@
 
 ## Post-training
  - BART의 Text infilling loss와 QG loss를 합쳐 Post-training을 진행
+ - 추가로, KoBART의 pre-training에서는 사용하지 않은 Sentence permutation을 포함하여 (Sentence permutation + Text infilling) loss와 QG loss를 합쳐 Post-training을 진행 (+ 2022.06.24)
  - Post-training에서 QG는 AI-hub의 기계독해 데이터셋을 사용
 
 ## How to Train
