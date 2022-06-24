@@ -16,6 +16,8 @@ python post_train.py
 
 ## Generation Sample
 - Text infilling + QG
+
+
 | ||Text|
 |-------|-------|-------|
 |1|Answer|1989년 2월 15일|
@@ -36,6 +38,8 @@ python post_train.py
 
 
 - Text infilling + Sentence permutation + QG
+
+
 | ||Text|
 |-------|-------|-------|
 |1|Answer|1989년 2월 15일|
