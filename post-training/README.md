@@ -60,11 +60,14 @@ python post_train.py
 - Test Data 기준으로 BLEU score를 산출함
  
 - Text infilling + QG
+
 | |BLEU-1|BLEU-2|BLEU-3|BLEU-4|
 |------|:-------:|:-------:|:-------:|:-------:|
 |Score|43.59|32.54|24.84|19.20|
 
- - Text infilling + Sentence permutation + QG
+- Text infilling + Sentence permutation + QG
+
+
 | |BLEU-1|BLEU-2|BLEU-3|BLEU-4|
 |------|:-------:|:-------:|:-------:|:-------:|
 |Score|43.84|32.73|25.08|19.34|
