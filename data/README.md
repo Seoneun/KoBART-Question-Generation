@@ -1,3 +1,1 @@
-## Please download train.tsv and dev.tsv below the link and put the files in this directory.
-
-https://drive.google.com/drive/folders/1LUdBkuOIVJAdKMEz78I71SmaX89la6CT?usp=sharing
+## Please make train.tsv and dev.tsv by using KorQuAD 1.0
